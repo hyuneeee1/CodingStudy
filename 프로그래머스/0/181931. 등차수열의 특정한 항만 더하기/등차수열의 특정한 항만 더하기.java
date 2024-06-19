@@ -5,7 +5,6 @@ class Solution {
         for(int i = 0 ; i < included.length; i++) {
             if(included[i]) {
                 answer += a + (i * d);
-                continue;
                     
             }
         }
